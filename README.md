@@ -1,2 +1,7 @@
-# codelion-TIL
-멋쟁이 사자처럼 - Today I Learned
+# 멋쟁이 사자처럼 - Today I Learned
+- 멋쟁이 사자처럼 프론트엔드 스쿨 2기를 교육받으며 그날 학습한 내용을 기록
+
+## 분류
+- HTML
+    - 3월 29일
+    - 3월 30일
