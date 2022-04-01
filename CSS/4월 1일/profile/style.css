@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
 /* COMMON */
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
 body,
 ul,
 p {
@@ -22,69 +28,71 @@ a {
   color: inherit;
 }
 
+
 /* STYLE */
 body {
-  background-image: url(./images/background.gif);
+  background-image: url(./images/background2.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  height: 100vh;
 }
 
-.wrapper {
-  background-color: #ddd;
+.main {
+  background-image: url(./images/cover04.png);
+  background-size: cover;
   width: 800px;
-  margin: 100px auto;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .header {
-  background-image: url(./images/cover04.png);
-  background-size: cover;
   height: auto;
   text-align: center;
   color: white;
   padding: 50px 0;
 }
-
 .header img.profile {
   border: 10px solid white;
   border-radius: 69% 31% 35% 65% / 53% 57% 43% 47%;
 }
-
 .header h1 {
   font-size: 100px;
 }
-
 .header p {
+  font-size: 26px;
+  font-weight: bold;
   border-top: 4px solid;
   display: inline-block;
   padding: 10px 20px;
   margin: 20px auto;
 }
 
-.contents {
+.section {
   padding: 30px;
 }
 
-.section {
+.article {
   background-image: url(./images/icon-information.png);
   background-repeat: no-repeat;
   background-position: right 30px center;
-  background-color: white;
+  background-color: #f4f4f442;
   padding: 20px;
   margin-bottom: 20px;
+  border-radius: 20px;
 }
-
-.section:last-child {
+.article:last-child {
   margin-bottom: 0;
 }
-
-.section.skills {
+.article.skills {
   background-image: url(./images/icon-skills.png);
 }
-
-.section h2 {
-  color: salmon;
-  font-size: 20px;
+.article h2 {
+  color: #fcfcfc;
+  font-size: 26px;
   margin-bottom: 20px;
 }
 
@@ -92,16 +100,16 @@ body {
   border-left: 5px solid #ddd;
   padding: 2px 10px;
 }
-
 .list li:hover {
-  border-color: pink;
-  color: pink;
+  border-color: #f89797;
+  color: #f4f4f4;
 }
 
 .footer {
-  background-color: #f4f4f4;
+  background-color: #f4f4f491;
   text-align: center;
   padding: 20px 0;
+  border-radius: 0px 0px 30px 30px;
 }
 
 .icon {
@@ -115,22 +123,18 @@ body {
   background-image: url(./images/icons.png);
   background-size: 144px 96px;
 }
-
 .icon.github {
   background-color: #303030;
   background-position: left top;
 }
-
 .icon.facebook {
   background-color: dodgerblue;
   background-position: center top;
 }
-
 .icon.email {
   background-color: orangered;
   background-position: right top;
 }
-
 .icon:hover {
   background-position-y: bottom;
 }
