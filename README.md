@@ -13,3 +13,8 @@
 
 - CSS
   - [4월 1일](https://github.com/SeongHunGit/codelion-TIL/blob/main/CSS/4%EC%9B%94%201%EC%9D%BC/0401.md)
+
+<br>
+
+- 개인 공부
+  - [4월 2일(Netlify)](https://github.com/SeongHunGit/codelion-TIL/blob/main/%EA%B0%9C%EC%9D%B8%20%EA%B3%B5%EB%B6%80/Netlify/0402.md)
