@@ -18,3 +18,8 @@
 
 - 개인 공부
   - [4월 2일(Netlify)](https://github.com/SeongHunGit/codelion-TIL/blob/main/%EA%B0%9C%EC%9D%B8%20%EA%B3%B5%EB%B6%80/Netlify/0402.md)
+
+<br>
+
+- 주간 정리
+  - [1주차 정리(3월 28일 ~ 4월 3일)](https://github.com/SeongHunGit/codelion-TIL/blob/main/%EC%A3%BC%EA%B0%84%20%EC%A0%95%EB%A6%AC/1%EC%A3%BC%EC%B0%A8%20%EC%A0%95%EB%A6%AC.md)
