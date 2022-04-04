@@ -1,0 +1,91 @@
+/* FONT STYLE */
+html {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+/* BODY STYLE */
+body {
+  display: flex;
+  background-color: #f0ebf8;
+  justify-content: center;
+}
+
+/* ARTICLE */
+article {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 가운데 정렬 */
+.wrapper {
+  display: flex;
+  width: 500px;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+/* HEADER */
+.header {
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;
+  padding: 20px;
+  border-top: 12px solid #673ab8;
+}
+.header h1 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+/* FORM */
+section {
+  margin: 1rem 0;
+}
+
+fieldset {
+  display: flex;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;
+  padding: 1.2rem;
+  flex-direction: column;
+  font-size: 14px;
+}
+fieldset p {
+  margin-bottom: 1.2rem;
+  font-weight: bold;
+}
+fieldset div {
+  margin-bottom: 1rem;
+}
+
+/* INPUT */
+input[type="text"] {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 5px 0px;
+}
+input[type="time"] {
+  width: 25%;
+  border: 1px solid #f1f1f1d8;
+}
+
+/* BUTTON */
+button[type="submit"] {
+  font-weight: bold;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 5px;
+  background-color: #673ab8;
+}
+button[type="reset"] {
+  font-weight: bold;
+  border: none;
+  color: #673ab8;
+  background-color: transparent;
+}

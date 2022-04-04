@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>나와 잘 맞는 회사는?</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- HEADER -->
+      <header class="header">
+        <h1>나와 잘 맞는 회사는?</h1>
+        <p>가고 싶은 회사에 대한 호감도를 조사합니다. 아이고 의미 없다.</p>
+      </header>
+
+      <!-- MAIN -->
+      <main>
+        <!-- 설문 전체 폼 -->
+        <form action="" method="get">
+          <!-- 설문 전체 세션 -->
+          <section>
+            <!-- 마음에 드는 것 하나 선택 -->
+            <section>
+              <fieldset>
+                <p>다음 문자중에 왠지 마음에 드는 것을 하나 고르세요</p>
+                <div>
+                  <input type="radio" name="기업" id="제주코딩베이스" value="베" checked />
+                  <label for="제주코딩베이스">베</label>
+                </div>
+                <div>
+                  <input type="radio" name="기업" id="네이버" value="네" />
+                  <label for="네이버">네</label>
+                </div>
+                <div>
+                  <input type="radio" name="기업" id="카카오" value="카" />
+                  <label for="카카오">카</label>
+                </div>
+                <div>
+                  <input type="radio" name="기업" id="기업라인" value="라" />
+                  <label for="기업라인">라</label>
+                </div>
+                <div>
+                  <input type="radio" name="기업" id="쿠팡" value="쿠" />
+                  <label for="쿠팡">쿠</label>
+                </div>
+              </fieldset>
+            </section>
+
+            <!-- 이용하려는 메신저 모두 선택 -->
+            <section>
+              <fieldset>
+                <p>친구와문자를 합니다. 다음중 어떤 메신저를 이용하시겠습니까? 모두 골라주세요.</p>
+                <div>
+                  <input type="checkbox" name="메신저" id="카카오톡" value="카카오톡" />
+                  <label for="카카오톡">카카오톡</label>
+                </div>
+                <div>
+                  <input type="checkbox" name="메신저" id="메신저라인" value="메신저라인" />
+                  <label for="메신저라인">라인</label>
+                </div>
+                <div>
+                  <input type="checkbox" name="메신저" id="인스타그램" value="인스타그램" />
+                  <label for="인스타그램">인스타그램 디엠</label>
+                </div>
+                <div>
+                  <input type="checkbox" name="메신저" id="네이트온" value="네이트온" />
+                  <label for="네이트온">네이트온</label>
+                </div>
+                <div>
+                  <input type="checkbox" name="메신저" id="버디버디" value="버디버디" />
+                  <label for="버디버디">버디버디</label>
+                </div>
+              </fieldset>
+            </section>
+
+            <!-- 면접 자신의 포부 한 문장 -->
+            <section>
+              <fieldset>
+                <label for="포부">
+                  <p>면접에서 자신의 포부를 한 문장으로 얘기한다면?</p>
+                </label>
+                <div>
+                  <input type="text" name="면접" id="포부" placeholder="내 답변" />
+                </div>
+              </fieldset>
+            </section>
+
+            <!-- 최종면접 전 자신에게 해주고 싶은 말 -->
+            <section>
+              <fieldset>
+                <label for="최종면접">
+                  <p>
+                    당신은 지금 한 기업의 최종면접을 앞두고 있습니다. 면접장에 들어가기 직전, 자기 자신에게 해주고 싶은
+                    말은?
+                  </p>
+                </label>
+                <div>
+                  <input type="text" name="면접" id="최종면접" placeholder="내 답변" />
+                </div>
+              </fieldset>
+            </section>
+
+            <!-- 기술 면접때 안 듣고 싶은 질문 -->
+            <section>
+              <fieldset>
+                <label for="기술면접">
+                  <p>다음 중 기술 면접때 듣고 싶은 질문이 아닌 것은?</p>
+                </label>
+                <div>
+                  <input type="text" list="기술면접질문" name="기술면접질문" id="기술면접" />
+                  <datalist id="기술면접질문">
+                    <option value="">선택</option>
+                    <option value="주말출근">주말 출근 가능하세요?</option>
+                  </datalist>
+                </div>
+              </fieldset>
+            </section>
+
+            <!-- 취업 희망하는 날짜 -->
+            <section>
+              <fieldset>
+                <label for="날짜">
+                  <p>날짜</p>
+                </label>
+                <div>
+                  <input type="date" name="취업희망날짜" id="날짜" />
+                </div>
+              </fieldset>
+            </section>
+
+            <!-- 업무 시작하는 시간 -->
+            <section>
+              <fieldset>
+                <label for="시간">
+                  <p>시간</p>
+                </label>
+                <div>
+                  <input type="time" name="취업희망날짜" id="시간" />
+                </div>
+              </fieldset>
+            </section>
+
+            <article>
+              <button type="submit">제출</button>
+              <button type="reset">양식 지우기</button>
+            </article>
+          </section>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
