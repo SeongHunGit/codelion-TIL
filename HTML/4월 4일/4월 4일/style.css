@@ -34,6 +34,7 @@ article {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;
   padding: 20px;
   border-top: 12px solid #673ab8;
+  box-sizing: border-box;
 }
 .header h1 {
   font-size: 28px;
