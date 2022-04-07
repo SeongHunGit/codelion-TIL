@@ -16,6 +16,7 @@
 - CSS
   - [4월 1일](https://github.com/SeongHunGit/codelion-TIL/blob/main/CSS/4%EC%9B%94_1%EC%9D%BC/0401.md)
   - [4월 6일](https://github.com/SeongHunGit/codelion-TIL/blob/main/CSS/4%EC%9B%94_6%EC%9D%BC/0406.md)
+  - [4월 7일](https://github.com/SeongHunGit/codelion-TIL/blob/main/CSS/4%EC%9B%94_7%EC%9D%BC/0407.md)
 
 <br>
 
