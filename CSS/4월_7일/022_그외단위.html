@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>vmin & vmax</title>
+    <style>
+      body {
+        margin: 0;
+        background-color: tomato;
+      }
+      /*
+            1. 브라우저의 크기를 세로가 크게 만들었을 때에는 vmin에 단위가 가로를 100으로 나눈 것이 됨.
+            2. 브라우저의 크기를 가로가 크게 만들었을 때에는 vmin에 단위가 세로를 100으로 나누느 것이 됨.
+            3. vmax는 반대 개념
+        */
+      div {
+        width: 50vmax;
+        height: 50vmax;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>
