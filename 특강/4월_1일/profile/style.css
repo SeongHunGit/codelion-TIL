@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
+/* COMMON */
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+body,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* STYLE */
+body {
+  background-image: url(./images/background2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.main {
+  background-image: url(./images/cover04.png);
+  background-size: cover;
+  width: 800px;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header {
+  height: auto;
+  text-align: center;
+  color: white;
+  padding: 50px 0;
+}
+.header img.profile {
+  border: 10px solid white;
+  border-radius: 69% 31% 35% 65% / 53% 57% 43% 47%;
+}
+.header h1 {
+  font-size: 100px;
+}
+.header p {
+  font-size: 26px;
+  font-weight: bold;
+  border-top: 4px solid;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px auto;
+}
+
+.section {
+  padding: 30px;
+}
+
+.article {
+  background-image: url(./images/icon-information.png);
+  background-repeat: no-repeat;
+  background-position: right 30px center;
+  background-color: #f4f4f442;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.article:last-child {
+  margin-bottom: 0;
+}
+.article.skills {
+  background-image: url(./images/icon-skills.png);
+}
+.article h2 {
+  color: #fcfcfc;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.list li {
+  border-left: 5px solid #ddd;
+  padding: 2px 10px;
+}
+.list li:hover {
+  border-color: #f89797;
+  color: #f4f4f4;
+}
+
+.footer {
+  background-color: #f4f4f491;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 0px 0px 30px 30px;
+}
+
+.icon {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  border: 2px solid #ddd;
+  border-radius: 30px;
+  color: white;
+  /* 이미지 스프라이트 기법 => 웹 성능 */
+  background-image: url(./images/icons.png);
+  background-size: 144px 96px;
+}
+.icon.github {
+  background-color: #303030;
+  background-position: left top;
+}
+.icon.facebook {
+  background-color: dodgerblue;
+  background-position: center top;
+}
+.icon.email {
+  background-color: orangered;
+  background-position: right top;
+}
+.icon:hover {
+  background-position-y: bottom;
+}
