@@ -35,3 +35,4 @@
 
 - 주간 정리
   - [1주차 정리(3월 28일 ~ 4월 3일)](https://github.com/SeongHunGit/codelion-TIL/blob/main/%EC%A3%BC%EA%B0%84%EC%A0%95%EB%A6%AC/1%EC%A3%BC%EC%B0%A8_%EC%A0%95%EB%A6%AC.md)
+  - [2주차 정리(4월 4일 ~ 4월 10일)](https://github.com/SeongHunGit/codelion-TIL/blob/main/%EC%A3%BC%EA%B0%84%EC%A0%95%EB%A6%AC/2%EC%A3%BC%EC%B0%A8_%EC%A0%95%EB%A6%AC.md)
