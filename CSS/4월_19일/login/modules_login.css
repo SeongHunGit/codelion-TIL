@@ -1,0 +1,114 @@
+/* 모듈 */
+/* 로그인 버튼 모듈 */
+.btn-login {
+  width: 100%;
+  padding: 17px 0 15px;
+  line-height: 28px;
+  font-size: 22px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background: #2f80ed;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-close {
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* 인풋 모듈 */
+.module-inp .inp-login {
+  display: block;
+  width: 100%;
+  padding: 15px 16px 15px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.module-inp.module-inp-id.error .inp-login {
+  position: relative;
+  border: 2px solid #f4492e;
+}
+
+.module-inp .inp-error {
+  display: none;
+  margin: 6px 0 0 4px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #f4492e;
+  text-align: left;
+}
+
+.module-inp.error .inp-error {
+  display: block;
+}
+
+.module-inp ~ .module-inp {
+  margin-top: 10px;
+}
+
+/* 소셜 로그인 버튼 모듈 */
+.link-sns-login {
+  display: block;
+  padding: 15px 14px;
+  border: 1px solid #767676;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #767676;
+}
+
+[class^="icon"]::before {
+  float: left;
+  display: block;
+  content: "";
+  width: 22px;
+  height: 22px;
+}
+
+.link-sns-login.icon-facebook {
+  border: 1px solid #2d9cdb;
+}
+
+.link-sns-login.icon-naver {
+  border: 1px solid #00bf18;
+}
+
+.link-sns-login.icon-kakao {
+  border: 1px solid #f2c94c;
+}
+
+.icon-google::before {
+  width: 22px;
+  height: 22px;
+  background: url("./images/css_sprites.png") -10px -10px;
+}
+
+.icon-naver::before {
+  width: 22px;
+  height: 22px;
+  background: url("./images/css_sprites.png") -10px -52px;
+}
+
+.icon-kakao::before {
+  width: 22px;
+  height: 22px;
+  background: url("./images/css_sprites.png") -52px -10px;
+}
+
+.icon-facebook::before {
+  width: 13px;
+  height: 24px;
+  margin-left: 2px;
+  background: url("./images/css_sprites.png") -94px -10px;
+}
