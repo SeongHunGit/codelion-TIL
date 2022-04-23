@@ -43,6 +43,7 @@
 - 개인 공부
   - [4월 2일(Netlify)](https://github.com/SeongHunGit/codelion-TIL/blob/main/%EA%B0%9C%EC%9D%B8%EA%B3%B5%EB%B6%80/Netlify/0402.md)
   - [4월 4일(Instagram login page)](https://velog.io/@nu11/%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%ED%8E%98%EC%9D%B4%EC%A7%80-%ED%81%B4%EB%A1%A0)
+  - [4월 23일(구글 세이프 브라우징)](https://github.com/tada-js/codelion-TIL/blob/main/%EA%B0%9C%EC%9D%B8%EA%B3%B5%EB%B6%80/%EA%B5%AC%EA%B8%80_%EC%84%B8%EC%9D%B4%ED%94%84_%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A7%95/0423.md)
 
 <br>
 
