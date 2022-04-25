@@ -1,0 +1,30 @@
+.box {
+  &:focus {
+  } // 가상선택자
+  &:hover {
+  }
+  &:active {
+  }
+  &:first-child {
+  }
+  &:nth-child(2) {
+  }
+  &::after {
+  } // 가상요소
+  &::before {
+  }
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  transition: all 0.5;
+  &:hover {
+    background-color: green;
+  }
+}
+
+.box:hover {
+  background-color: green;
+}

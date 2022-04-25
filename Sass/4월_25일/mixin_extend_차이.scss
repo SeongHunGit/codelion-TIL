@@ -1,0 +1,27 @@
+// mixin 사용
+@mixin box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.base-box {
+  @include box;
+}
+
+.box {
+  @include box;
+  border: 5px solid black;
+}
+
+//extend 사용
+.base-box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.box {
+  @extend .base-box;
+  border: 5px solid black;
+}
