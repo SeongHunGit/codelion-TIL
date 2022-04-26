@@ -1,12 +1,13 @@
 .one {
-  color: #fff;
-}
-
-.two {
+  font-size: 34px;
   color: #000;
 }
 
+.two {
+  color: #F00;
+}
+
 .three {
-  color: blue;
+  color: #00F;
 }
 /*# sourceMappingURL=007_변수선언.css.map */

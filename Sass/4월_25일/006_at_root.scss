@@ -1,9 +1,9 @@
 .one {
-  color: red;
-  .two {
-    color: blue;
-    @at-root .three {
-      color: green;
+    color: red;
+    .two {
+        color: blue;
+        @at-root .three {
+            color: green;
+        }
     }
-  }
 }

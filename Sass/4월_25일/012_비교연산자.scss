@@ -17,21 +17,21 @@
 @debug false or false; // false
 
 .one {
-  font-size: 10px + 10px;
+    font-size: 10px + 10px;
 }
 
 .two {
-  font-size: 30px - 10px;
+    font-size: 30px - 10px;
 }
 
 .three {
-  font-size: 10px * 2;
+    font-size: 10px * 2;
 }
 
 .four {
-  font-size: (20px / 10);
+    font-size: (20px / 10);
 }
 
 .five {
-  font-size: 8px % 3;
+    font-size: 8px % 3;
 }
