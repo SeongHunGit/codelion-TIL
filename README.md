@@ -47,6 +47,7 @@
 - JavaScript
   - [4월 15일(선행학습)](https://github.com/tada-js/codelion-TIL/tree/main/JavaScript/4%EC%9B%94_15%EC%9D%BC)
   - [4월 27일](https://github.com/tada-js/codelion-TIL/tree/main/JavaScript/4%EC%9B%94_27%EC%9D%BC)
+  - [4월 28일](https://github.com/tada-js/codelion-TIL/blob/main/JavaScript/4%EC%9B%94_28%EC%9D%BC/0428.md)
 
 <br>
 
