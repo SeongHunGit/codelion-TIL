@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <script>
+      let txt = "ABCDEFGHIJKLMNABC";
+
+      document.write(parseInt(number) + parseInt(number), "<br>");
+      document.write(`txt.length : ${txt.length}<br>`);
+      document.write(`txt[1] : ${txt[1]}<br>`);
+      document.write(`txt.slice(0, 3) : ${txt.slice(0, 3)}<br>`);
+      document.write(`txt.replace('ABC', 'hojun') : ${txt.replace("ABC", "hojun")} <br>`);
+
+      // ------------------------
+
+      let value1 = 30;
+      let value2 = 50;
+
+      console.log(value1 > value2);
+      console.log(value1 >= value2);
+      console.log(value1 < value2);
+      console.log(value1 <= value2);
+
+      // ------------------------
+
+      console.log(value1 == value2);
+      console.log(value1 === value2);
+
+      // ------------------------
+
+      console.log(`1 ${!!undefined}`);
+      console.log(`2 ${!!null}`);
+      console.log(`3 ${!!NaN}`);
+
+      // ------------------------
+
+      let person = {
+        name: "이호준",
+        age: 10,
+      };
+
+      document.write(`제 이름은 ${person.name} 입니다.<br>`);
+    </script>
+  </body>
+</html>

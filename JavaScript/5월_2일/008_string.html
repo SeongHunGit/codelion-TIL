@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // 문자열 (String)
+
+        let txt = 'ABCDEFGHIJKLMNABC';
+        let text_two = 'mom said \'hello world\'';
+        let text_three = "mom said 'hello world'";
+        let number = '100';
+
+        document.write(number + number, '<br>');
+        document.write(Number(number) + Number(number), '<br>');
+        document.write(parseInt(number) + parseInt(number), '<br>');
+        document.write(+number + +number, '<br>');
+
+        document.write(`txt : ${txt}<br>`);
+        // 문제 : 100 + 100 = 200이라고 출력을 해주세요.
+        document.write(`100 + 100 = 200<br>`);
+        document.write(`${number} + ${number} = ${number * 2} <br>`);
+
+        document.write(`txt.length : ${txt.length}<br>`);
+        document.write(`txt[1] : ${txt[1]}<br>`);
+
+        document.write(txt.indexOf("F"), '<br>');
+        // indexOf는 정규 표현식을 허용 X
+        document.write(`txt.indexOf("F") : ${txt.indexOf("F")}<br>`);
+        document.write(`txt.search("F") : ${txt.search("F")}<br>`);
+
+        document.write(`txt.indexOf("FG") : ${txt.indexOf("F")}<br>`);
+        document.write(`txt.search("FG") : ${txt.search("F")}<br>`);
+
+        document.write(`txt.indexOf("Z") : ${txt.indexOf("Z")}<br>`);
+        document.write(`txt.search("Z") : ${txt.search("Z")}<br>`);
+
+        let regExp = /CD/;
+        // document.write(`txt.indexOf(regExp) : ${txt.indexOf(regExp)}`);
+        document.write(`txt.search(regExp) : ${txt.search(regExp)}`);
+
+
+        document.write(`txt.slice(0, 3) : ${txt.slice(0, 3)} <br>`);
+
+        document.write('abcdef'.replace('cde', 'hun'));
+
+        
+        //문맥을 봐야 합니다.
+        // document.write(number + number, '<br>');
+        // document.write(number + 10, '<br>');
+        // document.write(number - 10, '<br>');
+        // document.write(number * 10, '<br>');
+
+        // document.write(typeof(number), '<br>');
+        // document.write(typeof(+number), '<br>');
+        // document.write(typeof(null), '<br>'); // 심각
+        // document.write(typeof(NaN), '<br>'); // 심각
+        // document.write(typeof(Infinity), '<br>');
+        // document.write(typeof([]), '<br>'); // 심각
+        // document.write(typeof({}), '<br>');
+        // document.write(typeof(''), '<br>');
+        // document.write(typeof(0), '<br>');
+
+        // console.log(0 + '');
+        // console.log(Infinity + '');
+        // console.log(true + '');
+        // console.log({} + ''); // 심각
+        // console.log(({}) + ''); // 심각
+        // console.log([] + ''); // 심각
+        // console.log([1, 2, 3, 4] + ''); // 심각
+    </script>
+</body>
+
+</html>
