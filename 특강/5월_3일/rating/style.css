@@ -1,0 +1,29 @@
+body {
+    background-color: #111;
+    color: #999;
+}
+
+.rating {
+    width: 240px;
+    overflow: hidden;
+} 
+
+.rating::before {
+    content: ' ';
+    display: block;
+    background-position: left bottom;
+    width: 0;
+}
+
+.rating,
+.rating::before {
+    background-image: url(images/happy.png);
+    background-size: 240px 96px;
+    height: 48px;
+}
+
+.rating_10::before { width: 20%; }
+.rating_20::before { width: 40%; }
+.rating_30::before { width: 60%; }
+.rating_40::before { width: 80%; }
+.rating_50::before { width: 100%; }
