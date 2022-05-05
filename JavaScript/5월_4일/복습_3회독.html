@@ -5,6 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
+    <div id="test">
+      <button onclick="alert('hello world')">click</button>
+    </div>
   </head>
-  <body></body>
+  <body>
+    <script>
+      // 1. 출력할 수 있는 방법 4가지
+      // document.getElementById("test").innerHTML = "hello world";
+      // console.log("hello world");
+      // window.alert("hello world");
+      // document.write("hello!");
+
+      // 4. 변수(var-가변, let-가변, const-불변)
+      let x = 3;
+      let y = 7;
+      const hello = "world";
+
+      // 5. 연산
+      // 5.2 비교연산
+      console.log(x > y);
+      console.log(x >= y);
+      console.log(x < y);
+      console.log(x <= y);
+      console.log(x == y);
+      console.log(x === y);
+      console.log(x != y);
+      console.log(x !== y);
+      // 5.3 논리연산
+      x = true;
+      y = false;
+      console.log(x && y);
+      console.log(x || y);
+      console.log(!y);
+      console.log(!!y);
+
+      // 6. 숫자형(Number)
+      // 형변환: 기존 자료형에서 필요한 자료형으로 형변환
+      x = 10;
+      y = "10";
+      console.log(typeof x);
+      console.log(y + y);
+      console.log(Number(y) + Number(y));
+      console.log(parseInt(y) + parseInt(y)); // 자주 사용!!!!!
+      console.log(10 / 0); // Infinity
+      console.log(Math.random());
+      console.log(Math.max("1", 2, "3")); // 입력값으로 받은 숫자(문자열도 됨) 중 가장 큰 숫자를 반환!
+
+      // 7. 문자형(String)
+      let txt = "ABCDEFGABC";
+      console.log(typeof txt);
+      console.log(String(x) + String(x));
+      console.log(x.toString() + x.toString()); // 자주 사용!!!!!!!!!!
+      console.log(txt[9]);
+      console.log(txt.length);
+      console.log(txt.slice(1, 9)); // BCDEFGAB, 원본 수정 안됨!
+      console.log(txt.replace("ABC", "가나다")); // 일부 또는 모든 부분이 교체된 새로운 문자열을 반환.
+      console.log(txt);
+      console.log(txt.toLowerCase()); // 문자열을 소문자로 변환해 반환한다.
+      console.log(txt.includes("1")); // 문자열에 포함되어 있는지 true, false로 판별, 원본 수정 안됨
+      // includes 예제
+      const sentence = "The quick brown fox jumps over the lazy dog.";
+      const word = "fox";
+      console.log(`The word "${word}" ${sentence.includes(word) ? "is" : "is not"} in the sentence`);
+      // > 'The word "fox" is in the sentence'
+
+      // 8. 논리형(Boolean)
+      x = true;
+      y = false;
+      let z = 1;
+      let a = 0;
+      let b = "0";
+      console.log(typeof x); // boolean
+      console.log(Boolean(z)); // true
+      console.log(!!z); // true
+      console.log(!!a); // false
+      console.log(!!b); // true
+
+      // 9. 객체(Object)
+      // key: value의 쌍으로 이뤄진다.
+      김멋사 = { 성: "김", 이름: "멋사", 나이: 10 };
+      console.log(김멋사.성);
+      console.log(김멋사["이름"]);
+      console.log(Object.keys(김멋사)); // ['성', '이름', '나이']
+      console.log(Object.values(김멋사)); // ['김', '멋사', 10]
+      console.log(Object.entries(김멋사)); // [키, 값] 쌍을 담은 배열을 반환한다.
+
+      // 10. 배열(Array의 typeof는 뭐라고? object다!!!!)
+      let cafe = ["coffee", "cake", "tea", "cookie"];
+      cafe.push("toast"); // 원본 수정! 배열의 맨 끝에 하나 이상의 요소를 추가하고 배열의 새로운 길이를 반환!
+      console.log(cafe);
+      let last = cafe.pop(); // 원본 수정! 배열에서 마지막 요소를 제거하고 그 요소를 반환한다.
+      console.log(last);
+      console.log(cafe);
+      console.log(cafe.join("-")); // 원본 수정 안됨! 배열의 모든 요소를 연결해 하나의 문자열로 만든다.
+      let arr = [1, 2, 3, 4, 5, 6];
+      let arr2 = arr.filter((i) => i > 3); // 원본 수정 안됨! 주어진 함수의 테스트를 통과하는 모든 요소를 모아 새로운 배열로 반환한다.
+      console.log(arr2);
+      console.log(arr);
+      let arr3 = arr.map((x) => x * 2); // 배열 내의 모든 요소 각각에 대하여 주어진 함수를 호출한 결과를 모아 새로운 배열을 반환한다.
+      console.log(arr3);
+      console.log(arr);
+      arr.forEach((i) => console.log(i + 1)); // 주어진 함수를 배열 요소 각각에 대해 실행한다.
+    </script>
+  </body>
 </html>
