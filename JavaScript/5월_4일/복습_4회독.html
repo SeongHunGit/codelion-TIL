@@ -6,5 +6,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
   </head>
-  <body></body>
+  <body>
+    <div id="test">
+      <button onclick="alert('hello world')">click</button>
+    </div>
+    <script>
+      // 1. 출력할 수 있는 방법 4가지
+      // document.getElementById("test").innerHTML = "hello world";
+      // console.log("hello world");
+      // window.alert("hello world");
+      // document.write("hello world!");
+
+      // 4. 변수(var-가변, let-가변, const-불변)
+      let x = 3;
+      let y = 7;
+
+      // 5. 연산
+      // 5.3 논리연산
+      x = true;
+      y = false;
+      console.log(x && y);
+      console.log(x || y);
+      console.log(!y);
+      console.log(!!y);
+
+      // 6. 숫자형(Number)
+      // 형변환 : 기존 자료형에서 필요한 자료형으로 형변환
+      x = 10;
+      y = "10";
+      console.log(typeof x);
+      console.log(y + y);
+      console.log(Number(y) + Number(y));
+      console.log(parseInt(y) + parseInt(y)); // 자주 사용!
+      console.log(10 / 0);
+      console.log(Math.random());
+      console.log(Math.max(1, "2", "3"));
+
+      // 7. 문자형(String)
+      let txt = "ABCDEFGABC";
+      console.log(typeof txt);
+      console.log(String(x) + String(x));
+      console.log(x.toString() + x.toString()); // 자주 사용!
+      console.log(txt[0]);
+      console.log(txt.length);
+      console.log(txt.slice(0, 5));
+      console.log(txt.replace("ABC", "가나다"));
+      console.log(txt.toLowerCase());
+      console.log(txt.includes("123"));
+      console.log(txt.includes("ABC"));
+
+      // 8. 논리형(Boolean)
+      x = true;
+      y = false;
+      let z = 1;
+      let a = 0;
+      let b = "0";
+      console.log(typeof x);
+      console.log(Boolean(b));
+      console.log(!!z);
+      console.log(!!a);
+      console.log(!!b);
+
+      // 9. 객체(Object)
+      // key: value의 쌍으로 이뤄진다.
+      x = { 이름: "김멋사", 나이: 10 };
+      console.log(x.이름);
+      console.log(x["이름"]);
+      console.log(Object.keys(x));
+      console.log(Object.values(x));
+      console.log(Object.entries(x));
+
+      // 10. 배열(Array의 typeof는 object다!)
+      let cafe = ["coffee", "cake", "tea", "cookie"];
+      cafe.push("toast"); // 원본 수정!
+      console.log(cafe);
+      let last = cafe.pop(); // 원본 수정!
+      console.log(last);
+      console.log(cafe);
+      console.log(cafe.join()); // 원본 수정 안됨! 문자열로 만듬!
+      console.log(cafe);
+      let arr = [1, 2, 3, 4, 5];
+      let arr2 = arr.filter((i) => i > 3); // 원본 수정 안됨! 새로운 배열로 반환!
+      console.log(arr2);
+      console.log(arr);
+      let arr3 = arr.map((x) => x * 2); // 새로운 배열로 반환!
+      console.log(arr3);
+      console.log(arr);
+      let arr4 = arr.forEach((i) => console.log(i + 1)); // 주어진 함수를 배열 요소 각각에 대해 실행!
+    </script>
+  </body>
 </html>
