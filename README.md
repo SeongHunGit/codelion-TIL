@@ -69,8 +69,9 @@
   - [4월 8일(혜진님, 누리님 / 노션-해봄님)](https://github.com/SeongHunGit/codelion-TIL/blob/main/%ED%8A%B9%EA%B0%95/4%EC%9B%94_8%EC%9D%BC/0408.md)
   - [4월 25일(CSS-종찬님)](https://github.com/tada-js/codelion-TIL/tree/main/%ED%8A%B9%EA%B0%95/4%EC%9B%94_25%EC%9D%BC)
   - [4월 28일(CSS-종찬님)](https://github.com/tada-js/codelion-TIL/tree/main/%ED%8A%B9%EA%B0%95/4%EC%9B%94_28%EC%9D%BC)
-  - [4월 29일(Git 보라님)](https://github.com/tada-js/codelion-TIL/blob/main/%ED%8A%B9%EA%B0%95/4%EC%9B%94_29%EC%9D%BC/0429.md)
+  - [4월 29일(Git-보라님)](https://github.com/tada-js/codelion-TIL/blob/main/%ED%8A%B9%EA%B0%95/4%EC%9B%94_29%EC%9D%BC/0429.md)
   - [5월 3일(CSS-종찬님)](https://github.com/tada-js/codelion-TIL/tree/main/%ED%8A%B9%EA%B0%95/5%EC%9B%94_3%EC%9D%BC)
+  - [5월 11일(이력서-워니님)](https://github.com/tada-js/codelion-TIL/blob/main/%ED%8A%B9%EA%B0%95/5%EC%9B%94_11%EC%9D%BC/0511.md)
 
 <br>
 
