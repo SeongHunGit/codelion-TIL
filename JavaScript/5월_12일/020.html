@@ -1,25 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .blue {
+            background-color: blue;
+        }
+    </style>
+</head>
+
 <body>
-  <button>HELLO!</button>
-  <button>Make me BLUE!</button>
-  <script>
-    // 이벤트의 타입에는 click, mouseover, mouseout, wheel 등 다양한 이벤트를 감지합니다.
-    // listener 함수의 인수에는 이벤트에 대한 정보가 담겨있습니다.
+    <!-- 점심 식단
+    <article id="container">
+        <ul>
+            <li>탕수육</li>
+            <li class="item-second">유산슬</li>
+            <li>짜장면</li>
+        </ul>
+    </article>
+    저녁 식단
+    <article>
+        <ul>
+            <li>된장국</li>
+            <li class="item-second">김치찌게</li>
+            <li>해장국</li>
+        </ul>
+    </article> -->
+    <button class="blue">HELLO!</button>
 
-    // const myBtn = document.querySelector("button");
+    <button>Make me BLUE!</button>
 
-    // myBtn.addEventListener("click", function () {
-    //   console.log("hello world");
-    // });
+    <script>
+        // const cont = document.getElementById('container');
+        // console.log(cont.getElementsByTagName('li')[0]);
+        // console.log(document.getElementsByTagName('li')[0]);
+        // console.log(document.getElementsByClassName('item-second')[0]);
 
-    const myBtn = document.querySelector("button");
+        // const myBtn = document.querySelector("button");
 
-    myBtn.addEventListener("click", function () {
-      // blue 라는 클래스의 속성 값을 지정 할 수 있습니다.
-      myBtn.classList.add("blue");
+        // myBtn.addEventListener('wheel', function () {
+        //     console.log("hello world");
+        // })
 
-      // myBtn.classList.remove(“blue”);     클래스를 제거합니다.
-      // myBtn.classList.toggle(“blue”);     클래스를 토글합니다. 없으면 넣어주고, 있으면 제거합니다.
-      // myBtn.classList.contains(“blue”);   해당하는 클래스가 있는지 확인합니다.
-    });
-  </script>
+
+        const myBtn = document.querySelector("button");
+
+        myBtn.addEventListener('click', function () {
+
+            // blue 라는 클래스의 속성 값을 지정 할 수 있습니다.
+            myBtn.classList.toggle("blue");
+
+            // myBtn.classList.remove(“blue”);     클래스를 제거합니다.
+            // myBtn.classList.toggle(“blue”);     클래스를 토글합니다. 없으면 넣어주고, 있으면 제거합니다.
+            // myBtn.classList.contains(“blue”);   해당하는 클래스가 있는지 확인합니다.
+        })
+    </script>
 </body>
+
+</html>
