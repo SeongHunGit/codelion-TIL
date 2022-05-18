@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <script>
+      // function Factory() {}
+      // const item = new Factory();
+
+      function NewFactory(name) {
+        this.name = name;
+        this.sayYourName = function () {
+          console.log(`삐비빅 제 이름은 ${this.name}입니다.`);
+        };
+      }
+
+      const robot1 = new NewFactory("김멋사");
+    </script>
+  </body>
+</html>

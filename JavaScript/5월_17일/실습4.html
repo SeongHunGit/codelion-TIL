@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <script>
+      const me = {
+        name: "김멋사",
+        address: "대구",
+        canPush: function () {
+          console.log("밀기운동을 한다.");
+        },
+        benchPress: function (weight) {
+          weight.up();
+        },
+      };
+
+      function Me(name, address) {
+        this.name = name;
+        this.address = address;
+      }
+
+      Me.prototype.canPush = function () {
+        console.log("밀기 운동을 한다");
+      };
+
+      Me.prototype.benchPress = function (weight) {
+        weight.up();
+      };
+    </script>
+  </body>
+</html>
