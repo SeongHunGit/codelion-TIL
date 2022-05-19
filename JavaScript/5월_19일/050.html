@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <script>
+      function outer() {
+        let val = "test";
+
+        function inner() {
+          console.log(val);
+        }
+
+        return inner;
+      }
+
+      const innerFunc = outer();
+
+      innerFunc();
+
+      // 동적 스코프
+      //   sub add {
+      //       $balance += shift;
+      //   }
+
+      //   sub transaction_a {
+      //       local $balance = 0;
+      //       say add(1);
+      //       transaction_b();
+      //       say add(100);
+      //   }
+
+      //   sub transaction_b {
+      //       local $balance = 5;
+      //       say add(10);
+      //   }
+      //
+    </script>
+  </body>
+</html>
