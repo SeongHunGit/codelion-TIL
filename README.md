@@ -45,6 +45,7 @@
 <br>
 
 - JavaScript
+
   - [4월 15일(선행학습)](https://github.com/tada-js/codelion-TIL/tree/main/JavaScript/4%EC%9B%94_15%EC%9D%BC)
   - [4월 27일](https://github.com/tada-js/codelion-TIL/tree/main/JavaScript/4%EC%9B%94_27%EC%9D%BC)
   - [4월 28일](https://github.com/tada-js/codelion-TIL/blob/main/JavaScript/4%EC%9B%94_28%EC%9D%BC/0428.md)
@@ -62,11 +63,16 @@
   - [5월 21일](https://github.com/tada-js/codelion-TIL/blob/main/JavaScript/5%EC%9B%94_21%EC%9D%BC/%EA%B8%B0%EC%B4%88%EC%88%98%EC%97%85.md)
   - [5월 23일](https://github.com/tada-js/codelion-TIL/tree/main/JavaScript/5%EC%9B%94_23%EC%9D%BC)
   - [5월 24일](https://github.com/tada-js/codelion-TIL/tree/main/JavaScript/5%EC%9B%94_24%EC%9D%BC)
-
-<br>
+  - [5월 25일](https://github.com/tada-js/codelion-TIL/blob/main/JavaScript/5%EC%9B%94_25%EC%9D%BC/074_%EC%9A%94%EC%95%BD%EC%A0%95%EB%A6%AC_final.md)
+    <br>
 
 - Node.js
   - [5월 13일](https://github.com/tada-js/codelion-TIL/tree/main/NodeJS/5%EC%9B%94_13%EC%9D%BC)
+
+<br>
+
+- jQuery
+  - [5월 25일](https://github.com/tada-js/codelion-TIL/tree/main/jQuery)
 
 <br>
 
