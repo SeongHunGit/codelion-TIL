@@ -64,7 +64,9 @@
   - [5월 23일](https://github.com/tada-js/codelion-TIL/tree/main/JavaScript/5%EC%9B%94_23%EC%9D%BC)
   - [5월 24일](https://github.com/tada-js/codelion-TIL/tree/main/JavaScript/5%EC%9B%94_24%EC%9D%BC)
   - [5월 25일](https://github.com/tada-js/codelion-TIL/blob/main/JavaScript/5%EC%9B%94_25%EC%9D%BC/074_%EC%9A%94%EC%95%BD%EC%A0%95%EB%A6%AC_final.md)
-    <br>
+  - [5월 26일](https://github.com/tada-js/codelion-TIL/tree/main/JavaScript/5%EC%9B%94_26%EC%9D%BC)
+
+<br>
 
 - Node.js
   - [5월 13일](https://github.com/tada-js/codelion-TIL/tree/main/NodeJS/5%EC%9B%94_13%EC%9D%BC)
@@ -73,6 +75,12 @@
 
 - jQuery
   - [5월 25일](https://github.com/tada-js/codelion-TIL/tree/main/jQuery)
+  - [5월 26일](https://github.com/tada-js/codelion-TIL/tree/main/jQuery)
+
+<br>
+
+- 알고리즘
+  - [5월 26일](https://github.com/tada-js/codelion-TIL/blob/main/algorithm/code_snippet.js)
 
 <br>
 
