@@ -92,6 +92,7 @@
   - [4월 29일(Git-보라님)](https://github.com/tada-js/codelion-TIL/blob/main/%ED%8A%B9%EA%B0%95/4%EC%9B%94_29%EC%9D%BC/0429.md)
   - [5월 3일(CSS-종찬님)](https://github.com/tada-js/codelion-TIL/tree/main/%ED%8A%B9%EA%B0%95/5%EC%9B%94_3%EC%9D%BC)
   - [5월 11일(이력서-워니님)](https://github.com/tada-js/codelion-TIL/blob/main/%ED%8A%B9%EA%B0%95/5%EC%9B%94_11%EC%9D%BC/0511.md)
+  - [5월 27일(1분코딩-준모님 / 수진님)](https://github.com/tada-js/codelion-TIL/tree/main/%ED%8A%B9%EA%B0%95/5%EC%9B%94_27%EC%9D%BC)
 
 <br>
 
