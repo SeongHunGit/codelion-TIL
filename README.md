@@ -106,6 +106,7 @@
   - [4월 16일(JavaScript 선행학습)](https://github.com/tada-js/codelion-TIL/blob/main/JavaScript/4%EC%9B%94_16%EC%9D%BC/0416.md)
   - [4월 23일(구글 세이프 브라우징)](https://github.com/tada-js/codelion-TIL/blob/main/%EA%B0%9C%EC%9D%B8%EA%B3%B5%EB%B6%80/%EA%B5%AC%EA%B8%80_%EC%84%B8%EC%9D%B4%ED%94%84_%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A7%95/0423.md)
   - [4월 29일(특강 예습)](https://github.com/tada-js/codelion-TIL/blob/main/%EA%B0%9C%EC%9D%B8%EA%B3%B5%EB%B6%80/4%EC%9B%94_29%EC%9D%BC_%ED%8A%B9%EA%B0%95%EC%98%88%EC%8A%B5/0429.md)
+  - [6월 1일(Git 403 Error)](https://github.com/tada-js/codelion-TIL/blob/main/%EA%B0%9C%EC%9D%B8%EA%B3%B5%EB%B6%80/Git_403_%EC%97%90%EB%9F%AC/0601.md)
 
 <br>
 
