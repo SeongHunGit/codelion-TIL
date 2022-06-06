@@ -108,6 +108,7 @@
   - [4월 29일(특강 예습)](https://github.com/tada-js/codelion-TIL/blob/main/%EA%B0%9C%EC%9D%B8%EA%B3%B5%EB%B6%80/4%EC%9B%94_29%EC%9D%BC_%ED%8A%B9%EA%B0%95%EC%98%88%EC%8A%B5/0429.md)
   - [6월 1일(Git 403 Error)](https://github.com/tada-js/codelion-TIL/blob/main/%EA%B0%9C%EC%9D%B8%EA%B3%B5%EB%B6%80/Git_403_%EC%97%90%EB%9F%AC/0601.md)
   - [6월 2일(제주 웹 컨퍼런스)](https://github.com/tada-js/codelion-TIL/blob/main/%EA%B0%9C%EC%9D%B8%EA%B3%B5%EB%B6%80/%EC%A0%9C%EC%A3%BC_%EC%9B%B9_%EC%BB%A8%ED%8D%BC%EB%9F%B0%EC%8A%A4/0602.md)
+  - [6월 6일(JavaScript Storage)](https://github.com/tada-js/codelion-TIL/blob/main/%EA%B0%9C%EC%9D%B8%EA%B3%B5%EB%B6%80/JS_Storage/0606.md)
 
 <br>
 
