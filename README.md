@@ -67,6 +67,7 @@
   - [5월 26일](https://github.com/tada-js/codelion-TIL/tree/main/JavaScript/5%EC%9B%94_26%EC%9D%BC)
   - [5월 30일](https://github.com/tada-js/codelion-TIL/tree/main/JavaScript/5%EC%9B%94_30%EC%9D%BC/DOM_1%EA%B8%B0)
   - [6월 5일(손코딩)](https://github.com/tada-js/codelion-TIL/blob/main/JavaScript/6%EC%9B%94_5%EC%9D%BC/2%EC%A3%BC%EC%B0%A8_%EC%86%90%EC%BD%94%EB%94%A9.pdf)
+  - [6월 10일](https://github.com/tada-js/codelion-TIL/tree/main/JavaScript/6%EC%9B%94_10%EC%9D%BC/module)
 
 <br>
 
