@@ -78,6 +78,12 @@
   - [6월 13일](https://github.com/tada-js/codelion-TIL/tree/main/React/6%EC%9B%94_13%EC%9D%BC)
   - [6월 14일](https://github.com/tada-js/codelion-TIL/tree/main/React/6%EC%9B%94_14%EC%9D%BC)
   - [6월 15일](https://github.com/tada-js/codelion-TIL/tree/main/React/6%EC%9B%94_15%EC%9D%BC)
+  - [6월 16일](https://github.com/tada-js/codelion-TIL/tree/main/React/6%EC%9B%94_16%EC%9D%BC)
+
+<br>
+
+- Redux
+  - [6월 16일](https://github.com/tada-js/codelion-TIL/tree/main/Redux/6%EC%9B%94_16%EC%9D%BC)
 
 <br>
 
