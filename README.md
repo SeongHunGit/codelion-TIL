@@ -130,6 +130,8 @@
 <br>
 
 - 개인 공부
+  - [JavaScript 학습 및 복습](https://github.com/tada-js/today-i-learned/blob/main/%EA%B0%9C%EC%9D%B8%EA%B3%B5%EB%B6%80/JavaScript.md)
+  - [React 학습 및 복습](https://github.com/tada-js/today-i-learned/blob/main/%EA%B0%9C%EC%9D%B8%EA%B3%B5%EB%B6%80/React.md)
   - [4월 2일(Netlify)](https://github.com/SeongHunGit/codelion-TIL/blob/main/%EA%B0%9C%EC%9D%B8%EA%B3%B5%EB%B6%80/Netlify/0402.md)
   - [4월 4일(Instagram login page)](https://velog.io/@nu11/%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%ED%8E%98%EC%9D%B4%EC%A7%80-%ED%81%B4%EB%A1%A0)
   - [4월 16일(JavaScript 선행학습)](https://github.com/tada-js/codelion-TIL/blob/main/JavaScript/4%EC%9B%94_16%EC%9D%BC/0416.md)
