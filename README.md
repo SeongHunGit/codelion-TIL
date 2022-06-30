@@ -116,6 +116,11 @@
 
 <br>
 
+- 면접 질문
+  - [6월 27일](https://github.com/tada-js/codelion-TIL/tree/main/%EB%A9%B4%EC%A0%91%EC%A7%88%EB%AC%B8)
+
+<br>
+
 - 특강
   - [4월 1일(CSS-종찬님)](https://github.com/SeongHunGit/codelion-TIL/blob/main/%ED%8A%B9%EA%B0%95/4%EC%9B%94_1%EC%9D%BC/0401.md)
   - [4월 8일(혜진님, 누리님 / 노션-해봄님)](https://github.com/SeongHunGit/codelion-TIL/blob/main/%ED%8A%B9%EA%B0%95/4%EC%9B%94_8%EC%9D%BC/0408.md)
